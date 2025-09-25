@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './App.css'
-import type { Task, TaskCreate, TaskUpdate } from './types'
+import type { Task, TaskCreate } from './types'
 import * as api from './api'
 
 export default function App() {
